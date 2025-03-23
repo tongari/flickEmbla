@@ -45,12 +45,6 @@ export const FlickEmblaCarousel = () => {
           ))}
         </div>
       </div>
-      <button className="embla__prev" onClick={scrollPrev}>
-        前へ
-      </button>
-      <button className="embla__next" onClick={scrollNext}>
-        次へ
-      </button>
     </div>
   );
 };
